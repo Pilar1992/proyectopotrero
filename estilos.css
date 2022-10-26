@@ -1,0 +1,25 @@
+h1, h2, h3 {text-decoration: underline; font-family: sans-serif; color: #15379c;
+}
+
+body {background-color: #fffcad; text-align: center;
+}
+
+ul, ol, li {font-size: 17px; font-family: sans-serif; color: #20c1d8;
+        list-style-position: inside;
+}
+
+img { width: 560px;
+      height: 315px;
+ }
+
+p {font-size: 17px; font-family: sans-serif; color:  #1d7ac7;
+
+}
+
+
+.rosa {color: #f6b7a0; font-weight: bolder; font-size: 25px;
+
+}
+
+.resaltar { color: #ffaba3;
+}
