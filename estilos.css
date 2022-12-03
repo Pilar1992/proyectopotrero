@@ -3,6 +3,8 @@ h1, h2, h3 {text-decoration: underline; font-family: sans-serif; color: #15379c;
 
 body {background-color: #fffcad; text-align: center;
 }
+nav { font-size: 25px; font-family: sans-serif; color: #20c1d8
+}
 
 ul, ol, li {font-size: 17px; font-family: sans-serif; color: #20c1d8;
         list-style-position: inside;
@@ -12,7 +14,7 @@ img { width: 560px;
       height: 315px;
  }
 
-p {font-size: 17px; font-family: sans-serif; color:  #1d7ac7;
+p, footer {font-size: 17px; font-family: sans-serif; color:  #1d7ac7;
 
 }
 
@@ -22,4 +24,36 @@ p {font-size: 17px; font-family: sans-serif; color:  #1d7ac7;
 }
 
 .resaltar { color: #ffaba3;
+}
+
+.cocina {width: 50px; height: 50px
+}
+
+a {text-decoration: none; font-family: sans-serif;
+}
+
+.icon-whatsapp { position: fixed;
+          width: 55px;
+          height: 55px;
+          line-height: 55px;
+          bottom: 30px;
+          right: 30px;
+          background: #00bb2d;
+          color: #ffffff;
+          border-radius: 10px;
+}
+
+.principal {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  padding-top: 17%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.recetario {
+  text-align: center;
 }
