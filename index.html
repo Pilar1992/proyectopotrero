@@ -1,5 +1,6 @@
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/a89c6c121a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css">
@@ -7,11 +8,10 @@
     <title>Recetas de Pilar</title>
   </head>
   <body>
-    <a href="https://api.whatsapp.com/send?phone=5493426153033" class="btn-wsp" target="_blank">
-        <img class="icon-whatsapp" src="icon-whatsapp.svg" alt="icono whatsapp">
-    </a>
+    <a href="https://api.whatsapp.com/send?phone=5493426153033" target="_blank">
+      <i class="fa-brands fa-square-whatsapp fa-2xl icon-whatsapp"></i></a>
     <header>
-      <img class="cocina" src="undraw_cooking_re_a12t.svg" alt="personas cocinando">
+      <img class="cocina" src="./imagenes/cocinando.svg" alt="personas cocinando">
       <h1>Mis recetas familiares</h1>
       <aside class="icons">
           <a  href="https://api.whatsapp.com/send?phone=5493426153033" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
@@ -21,22 +21,23 @@
       </aside >
     </header>
     <nav>
-      <a href="home.html" target="_blank">Home</a>
-      <a href="recetario.html" target="_blank">Recetario</a>
-      <a href="contacto.html" target="_blank">Contacto</a>
-      <a href="sobremi.html" target="_blank">Sobre mí</a>
+      <a href="home.html">Home</a>
+      <a href="recetario.html">Recetario</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="sobremi.html">Sobre mí</a>
     </nav>
-    <main class="principal">
-      <h1>Crêpes</h1>
-    <div class="recetas">
-      <p>Las crêpes o crepes son panqueques muy finos de origen francés que, generalmente, se sirven rellenos.</p>
-      <p>Las crêpes se hacen a base de harina de trigo, con la que se elabora una masa en forma de disco, de unos 16 cm de diámetro.</p>
-      <p>Se sirven habitualmente como base de un plato o postre, aplicándoles todo tipo de ingredientes dulces.</p>
-      <p>A continuación, la receta para preparar unas ricas crêpes dulces.</p>
-    </div>
-    <h2>Ingredientes</h2>
-      <img src="crepes.jpg" alt="Imagen de unas crêpes con chocolate y frambuesas.">
-          <h3>Para la masa</h3>
+<h1>Crêpes</h1>
+<div>
+  <p>Las crêpes o crepes son panqueques muy finos de origen francés que, generalmente, se sirven rellenos.</p>
+  <p>Las crêpes se hacen a base de harina de trigo, con la que se elabora una masa en forma de disco, de unos 16 cm de diámetro.</p>
+  <p>Se sirven habitualmente como base de un plato o postre, aplicándoles todo tipo de ingredientes dulces.</p>
+  <p>A continuación, la receta para preparar unas ricas crêpes dulces.</p>
+</div>
+<div class="principal">
+    <main>
+      <h2>Ingredientes</h2>
+        <img src="./imagenes/crepes.jpg" alt="Imagen de unas crêpes con chocolate y frambuesas" class="crepes">
+        <h2>Para la masa</h2>
             <ul class="Recetas">
               <li>125 gr. harina 0000</li>
               <li>2 huevos</li>
@@ -46,7 +47,7 @@
               <li>5 gr. azúcar</li>
               <li>C/n de manteca o aceite para untar la sartén</li>
             </ul>
-          <h3>Para acompañar</h3>
+            <h2>Para acompañar</h2>
             <ul class="recetas">
               <li>Untable de chocolate</li>
               <li>Azúcar impalpable</li>
@@ -60,13 +61,12 @@
               <p>Una vez que todas las crêpes estén listas, podés rellenarlas con lo que prefieras.</p>
               <p>Una opción clásica es utilizar crema de chocolate y avellanas y trozos de fruta.</p>
               <p>La crêpe se rellena y se sirve doblada en cuartos.</p>
-              <p>Por último, podés espolvorearla con azúcar impalpable, chips, frutos secos o rociarla con un poco de chocolate o agregar trozos de fruta por encima.</p>
+              <p>Por último, podés agregar azúcar impalpable, chips, frutos secos, chocolate o trozos de fruta.</p>
             </div>
-           <p class="rosa">¡A disfrutar!</p>
     </main>
     <section>
         <h2>Preparación</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/H_k_QutlKoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="15%" src="https://www.youtube.com/embed/H_k_QutlKoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <ol class="Recetas">
             <li>En primer lugar, derretí la manteca introduciéndola en el microondas (o a baño María) durante 30 0 40 segundos.</li>
             <li>A continuación, batí los ingredientes líquidos: la leche, la manteca derretida y los huevos. Podés batir en batidora o a mano.</li>
@@ -75,13 +75,15 @@
             <li>Una vez que la sartén esté caliente, verté un poco de la mezcla en el centro y esparcila. Cuando empieze a cuajar, dala vuelta y cociná el otro lado brevemente.</li>
             <li>Repetí la operación hasta terminar toda la masa</li>
           </ol>
+          <aside>
+            <h2 class="titulo">Bretaña</h2>
+              <h2 class="rosa">La región francesa que originó las Crêpes</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1364616.0307617395!2d-4.199629630621396!3d48.08581525806704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4811ca61ae7e8eaf%3A0x10ca5cd36df24b0!2sBrittany%2C%20France!5e0!3m2!1sen!2sar!4v1666804686686!5m2!1sen!2sar" width="100%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+          </aside>
     </section>
-    <aside class="">
-      <h1>Bretaña</h1>
-        <h2 class="resaltar">La región francesa que originó las Crêpes</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1364616.0307617395!2d-4.199629630621396!3d48.08581525806704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4811ca61ae7e8eaf%3A0x10ca5cd36df24b0!2sBrittany%2C%20France!5e0!3m2!1sen!2sar!4v1666804686686!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-    </aside>
+</div>
+<p class="rosa">¡A disfrutar!</p>
     <footer>
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6796.713498478397!2d-60.689103455491185!3d-31.59668304235231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sguadalupe%20oeste!5e0!3m2!1sen!2sar!4v1670265947815!5m2!1sen!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
@@ -91,10 +93,12 @@
         <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
         <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
       </div>
-      <div>
+      <div class="iconftr">
         <p>Información de la desarrolladora:</p>
         <p>Nombre: Pilar Barraguirre.</p>
         <p>De Santa Fe, Argentina.</p>
+        <a href="https://github.com/Pilar1992/" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/pilar-barraguirre/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
         <p>2022</p>
       </div>
     </footer>

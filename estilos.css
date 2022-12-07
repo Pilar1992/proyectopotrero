@@ -1,49 +1,64 @@
-h2, h3 {text-decoration: underline; font-family: sans-serif; color: #15379c;
+@font-face {
+  font-family: "nuevafuente";
+  src: url(./fuentes/opensans.ttf) format("truetype");
+}
+
+h2, h3 {
+  font-family: "nuevafuente";
+  color: #15379c;
 }
 
 body {background-color: #fffcad; text-align: center;
 }
-nav { font-size: 25px; font-family: sans-serif; color: #20c1d8
+
+nav {
+  font-size: 25px;
+  color: #20c1d8;
 }
 
-ul, ol, li {font-size: 17px; font-family: sans-serif; color: #20c1d8;
-        list-style-position: inside;
+ul, ol, li {
+  font-size: 17px;
+  font-family: "nuevafuente";
+  color: #20c1d8;
+  list-style-position: inside;
 }
 
-img { width: 560px;
-      height: 315px;
- }
-
-p, footer {font-size: 17px; font-family: sans-serif; color:  #1d7ac7;
-
+p, footer {
+  font-size: 17px;
+  font-family: sans-serif;
+  color:  #1d7ac7;
 }
 
-
-.rosa {color: #f6b7a0; font-weight: bolder; font-size: 25px;
-
+.rosa {
+  color: pink;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "nuevafuente";
 }
 
-.resaltar { color: #ffaba3;
-}
 
 .cocina {
-  width: 50px;
-  height: 50px;
+  width: 7%;
+  height: 7%;
   padding-top: 1%;
 }
 
-a {text-decoration: none; font-family: sans-serif;
+a {
+  text-decoration: none;
+  font-family: "nuevafuente";
 }
 
-.icon-whatsapp { position: fixed;
-          width: 55px;
-          height: 55px;
-          line-height: 55px;
-          bottom: 30px;
-          right: 30px;
-          background: #00bb2d;
-          color: #ffffff;
-          border-radius: 10px;
+a:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+.icon-whatsapp {
+  position:fixed;
+  bottom: 7%;
+  right: 3%;
+  color: #00bb2d;
+  background-color: #fffcad;
 }
 
 footer {
@@ -52,8 +67,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-
 
 header {
   display: flex;
@@ -64,11 +77,25 @@ header {
 
 main {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 65%;
+  padding-left: 3%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  align-items: flex-start;
   flex-direction: column;
 }
 
-h1 {text-decoration: none; font-family: sans-serif; color: #15379c;
+h1 {
+  text-decoration: none;
+  font-family: "nuevafuente";
+  color: #15379c;
 }
 
 .icons {
@@ -83,4 +110,27 @@ h1 {text-decoration: none; font-family: sans-serif; color: #15379c;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.crepes {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titulo {
+  text-align: left;
+}
+
+.panqueque {
+  margin-top: 10%;
 }
