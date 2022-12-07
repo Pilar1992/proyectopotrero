@@ -87,7 +87,7 @@ main {
 section {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 35%;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -133,4 +133,138 @@ h1 {
 
 .panqueque {
   margin-top: 10%;
+}
+
+@media (max-width: 800px) {
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .principal {
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  aside {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .crepes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  .video {
+    display: none;
+}
+  .crepes2 {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+  .icon-whatsapp {
+    position:fixed;
+    bottom: 7%;
+    right: 3%;
+    color: #00bb2d;
+    background-color: #fffcad;
+}
+}
+
+@media (min-width: 800px) {
+
+  .crepes2 {
+    display: none;
+}
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .principal {
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  aside {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .crepes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+  .crepes2 {
+    display: none;
+}
+  .icon-whatsapp {
+    position:fixed;
+    bottom: 7%;
+    right: 3%;
+    color: #00bb2d;
+    background-color: #fffcad;
+}
+  .video {
+   height: 100vw;
+   width: 100vw;
+}
 }
